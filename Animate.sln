@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Animate", "Animate.csproj", "{42D97CE6-76E3-48E7-A81C-7A89CC9B9205}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Animate", "Animate\Animate.csproj", "{42D97CE6-76E3-48E7-A81C-7A89CC9B9205}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
