@@ -23,7 +23,7 @@ async Task ShowFramesAsync(StreamReader stream)
 {
     _buffer.Clear();
 
-    var FramesToDisplayCell = decimal.Parse(await stream.ReadLineAsync() ?? "0");
+    var framesToDisplayCell = decimal.Parse(await stream.ReadLineAsync() ?? "0");
 
     for (var i = 0; i < RowsInCell; i++)
     {
@@ -34,7 +34,7 @@ async Task ShowFramesAsync(StreamReader stream)
     Console.SetCursorPosition(0, 0);
     Console.Write(_buffer.ToString());
 
-    var secondsToDisplayCell = FramesToDisplayCell / FramesPerSecond;
+    var secondsToDisplayCell = framesToDisplayCell / FramesPerSecond;
     var ticksToDisplayCell = Convert.ToInt64(secondsToDisplayCell * TimeSpan.TicksPerSecond);
     await Task.Delay(TimeSpan.FromTicks(ticksToDisplayCell));
 }
