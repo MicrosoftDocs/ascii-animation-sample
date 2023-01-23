@@ -8,7 +8,7 @@ This .NET sample reads a text file and displays it as an animation in the consol
 
 ## About this sample
 
-This sample is based on a [classic fixture of the late-90s Internet](https://lifehacker.com/watch-star-wars-in-text-via-telnet-373571). Special thanks to [Simon Jansen](asciimation@gmail.com) for providing the ASCII art.
+This sample is based on a [classic fixture of the late-90s Internet](https://lifehacker.com/watch-star-wars-in-text-via-telnet-373571). Special thanks to [Simon Jansen](mailto:asciimation@gmail.com) for providing the ASCII art.
 
 ## Contributing
 
