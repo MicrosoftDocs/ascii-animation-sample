@@ -1,5 +1,16 @@
+# ASCII Animation Sample
 
-# Contributing
+This .NET sample reads a text file and displays it as an animation in the console window. The animation cells are contained in the text file `cells.txt`. Each cell is 14 lines. The first line is a numeric value that indicates the number of frames to display the cell. The remaining 13 lines are the cell itself.
+
+## Prerequisites
+
+[.NET SDK 7](https://dotnet.microsoft.com/download/dotnet/7.0)
+
+## Special thanks
+
+This sample is based on a [classic fixture of the late-90s Internet](https://lifehacker.com/watch-star-wars-in-text-via-telnet-373571). Special thanks to [Simon Jansen](asciimation@gmail.com) for providing the ASCII art.
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -13,7 +24,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+## Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
