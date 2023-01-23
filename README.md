@@ -6,7 +6,7 @@ This .NET sample reads a text file and displays it as an animation in the consol
 
 [.NET SDK 7](https://dotnet.microsoft.com/download/dotnet/7.0)
 
-## Special thanks
+## About this sample
 
 This sample is based on a [classic fixture of the late-90s Internet](https://lifehacker.com/watch-star-wars-in-text-via-telnet-373571). Special thanks to [Simon Jansen](asciimation@gmail.com) for providing the ASCII art.
 
