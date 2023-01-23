@@ -3,11 +3,11 @@
 // Increase FramesPerSecond for faster playback.
 const int FramesPerSecond = 20;
 const int RowsInCell = 13;
-const string animationFrames = @"cells.txt";
+const string animationCells = @"cells.txt";
 
 StringBuilder _buffer = new();
 
-using (var fileStream = File.OpenText(animationFrames))
+using (var fileStream = File.OpenText(animationCells))
 {
     while (fileStream is { EndOfStream: false })
     {
