@@ -1,4 +1,15 @@
-# ASCII Animation Sample
+---
+languages:
+- csharp
+products:
+- dotnet-core
+page_type: sample
+name: "ASCII Animation Sample for .NET"
+urlFragment: "ascii-animation-dotnet"
+description: "A .NET sample that displays ASCII animation in a console app."
+---
+
+# ASCII Animation Sample for .NET
 
 This .NET sample reads a text file and displays it as an animation in the console window. The animation cells are contained in the text file `cells.txt`. Each cell is 14 lines. The first line is a numeric value that indicates the number of frames to display the cell. The remaining 13 lines are the cell itself.
 
